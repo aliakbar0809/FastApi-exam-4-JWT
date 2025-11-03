@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from decouple import config
 
-SQL_URL = default="sqlite:///./crm_softclub.db"
+SQL_URL = "sqlite:///./crm_softclub.db"
 
 engine = create_engine(SQL_URL, echo=False)
 
